@@ -1,27 +1,12 @@
 package com.IesAlonsoMadrigal.domain.models;
 
-public class Sala_Docencia {
-    private Integer id;
-    private String planta;
+public class Sala_Docencia extends Sala {
+
     private String sillas;
-    private String capacidad;
+
     private String tipo_pizarra;
 
-    public Integer getId() {
-        return id;
-    }
 
-    public void setId(Integer id) {
-        this.id = id;
-    }
-
-    public String getPlanta() {
-        return planta;
-    }
-
-    public void setPlanta(String planta) {
-        this.planta = planta;
-    }
 
     public String getSillas() {
         return sillas;
@@ -31,13 +16,7 @@ public class Sala_Docencia {
         this.sillas = sillas;
     }
 
-    public String getCapacidad() {
-        return capacidad;
-    }
 
-    public void setCapacidad(String capacidad) {
-        this.capacidad = capacidad;
-    }
 
     public String getTipo_pizarra() {
         return tipo_pizarra;

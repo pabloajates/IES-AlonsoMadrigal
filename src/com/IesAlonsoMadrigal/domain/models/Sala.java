@@ -2,7 +2,33 @@ package com.IesAlonsoMadrigal.domain.models;
 
 public class Sala {
 
-    public static void main(String [] args){
-        System.out.println("pedrito");
+    private Integer id;
+    private String planta;
+
+    private String capacidad;
+
+    public Integer getId() {
+        return id;
     }
+
+    public void setId(Integer id) {
+        this.id = id;
+    }
+
+    public String getPlanta() {
+        return planta;
+    }
+
+    public void setPlanta(String planta) {
+        this.planta = planta;
+    }
+
+    public String getCapacidad() {
+        return capacidad;
+    }
+
+    public void setCapacidad(String capacidad) {
+        this.capacidad = capacidad;
+    }
+
 }
