@@ -1,6 +1,6 @@
 package com.IesAlonsoMadrigal.domain.models;
 
-public class Profesores {
+public class Profesores extends Persona{
 
     private String titulo_academico;
     private String fecha_alta;
