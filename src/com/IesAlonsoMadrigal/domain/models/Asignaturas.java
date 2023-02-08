@@ -5,6 +5,16 @@ public class Asignaturas {
     private Integer id;
     private String nombre;
 
+    private Curso curso;
+
+    public Curso getCurso() {
+        return curso;
+    }
+
+    public void setCurso(Curso curso) {
+        this.curso = curso;
+    }
+
     public Integer getId() {
         return id;
     }
