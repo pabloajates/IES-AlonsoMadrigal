@@ -2,17 +2,17 @@ package com.IesAlonsoMadrigal.domain.models;
 
 public class Sala_Docencia extends Sala {
 
-    private String sillas;
+    private Integer sillas;
 
     private String tipo_pizarra;
 
 
 
-    public String getSillas() {
+    public Integer getSillas() {
         return sillas;
     }
 
-    public void setSillas(String sillas) {
+    public void setSillas(Integer sillas) {
         this.sillas = sillas;
     }
 

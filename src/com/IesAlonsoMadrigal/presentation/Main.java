@@ -38,6 +38,18 @@ public class Main {
         matricula.setId(2);
         matricula.setAlumnos(alumno);
 
-        Sala_Docencia
+        Sala_Docencia salaDocencia = new Sala_Docencia();
+        salaDocencia.setId(4);
+        salaDocencia.setSillas(12);
+        salaDocencia.setTipo_pizarra("Verde");
+        salaDocencia.setCapacidad("17 alumnos");
+        salaDocencia.setPlanta("3º planta");
+
+        Sala_Ordenadores salaOrdenador = new Sala_Ordenadores();
+        salaOrdenador.setId(5);
+        salaOrdenador.setNum_ordenadores(18);
+        salaOrdenador.setTipo_ordenadores("Sobremesa");
+        salaOrdenador.setCapacidad("19 alumnos");
+        salaOrdenador.setPlanta("2º planta");
     }
 }

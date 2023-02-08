@@ -3,16 +3,16 @@ package com.IesAlonsoMadrigal.domain.models;
 public class Sala_Ordenadores extends Sala{
 
 
-    private String num_ordenadores;
+    private Integer num_ordenadores;
     private String tipo_ordenadores;
 
 
 
-    public String getNum_ordenadores() {
+    public Integer getNum_ordenadores() {
         return num_ordenadores;
     }
 
-    public void setNum_ordenadores(String num_ordenadores) {
+    public void setNum_ordenadores(Integer num_ordenadores) {
         this.num_ordenadores = num_ordenadores;
     }
 
