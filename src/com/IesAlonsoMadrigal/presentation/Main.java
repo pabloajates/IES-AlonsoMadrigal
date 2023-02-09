@@ -19,7 +19,7 @@ public class Main {
         Profesores profesor = new Profesores();
         profesor.setId(1);
         profesor.setDni("23456785C");
-        profesor.setNombre("Consuelo");
+        profesor.setNombre("Consuel");
         profesor.setApellidos("Arenas");
         profesor.setTitulo_academico("Programacion");
 
