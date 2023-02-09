@@ -44,6 +44,7 @@ public class Main {
         salaDocencia.setTipo_pizarra("Verde");
         salaDocencia.setCapacidad("17 alumnos");
         salaDocencia.setPlanta("3º planta");
+        salaDocencia.setCurso(curso);
 
         Sala_Ordenadores salaOrdenador = new Sala_Ordenadores();
         salaOrdenador.setId(5);
@@ -51,5 +52,6 @@ public class Main {
         salaOrdenador.setTipo_ordenadores("Sobremesa");
         salaOrdenador.setCapacidad("19 alumnos");
         salaOrdenador.setPlanta("2º planta");
+        salaOrdenador.setCurso(curso);
     }
 }
